@@ -1,0 +1,57 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}About Us{% endblock title %}
+
+
+{% block banner-slider %}  
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner ">
+    <div class="carousel-item active">
+       <img src="{% static 'images/banner/b1.jpg' %}" height="500" class="d-block w-100" alt="banner images">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images/banner/b2.jpg' %}" class="d-block w-100" alt="banner images">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images/banner/b3.jpg' %}" class="d-block w-100" alt="banner images">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images/banner/b4.jpg' %}" class="d-block w-100" alt="banner images">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div><br>
+{% endblock banner-slider %}
+
+
+{% block main-content %}
+<div class="container mt-3">
+    <br>
+    <h2 class="text-center">About Us</h2>
+    <br>
+    <div class="row container">
+        <p class="fs-4 text-center">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem totam itaque voluptates illum harum? Maxime deleniti, quod eius esse nesciunt sit repellat enim quos fuga facilis ex quisquam, obcaecati est.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt rerum optio suscipit aspernatur odit possimus, inventore totam aliquam quae blanditiis, ab obcaecati minima tempore architecto, quo fuga quisquam cum impedit.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. A tempore corporis nulla accusantium asperiores iste, neque necessitatibus, illum distinctio fugit ducimus tenetur. Veniam quod saepe dolor delectus aut adipisci officia.
+        </p>
+    </div>
+    <br>
+    <h2 class="text-center">Mission  </h2>
+    <br>
+    <div class="row container">
+        <p class="fs-4 text-center">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem totam itaque voluptates illum harum? Maxime deleniti, quod eius esse nesciunt sit repellat enim quos fuga facilis ex quisquam, obcaecati est.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis illo repellendus commodi error sit repudiandae perferendis fugit labore eos voluptate. Consequuntur, optio? Quibusdam rerum nisi ad, tenetur deleniti facere veniam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reprehenderit omnis, totam illo maxime tempora! Minus voluptatum saepe accusamus neque provident sequi voluptatibus expedita perferendis? Quia doloremque quas reprehenderit quaerat.
+            </p>
+    </div>
+</div><br><br><br>
+{% endblock main-content %}
